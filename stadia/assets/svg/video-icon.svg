@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="43px" viewBox="0 0 65 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Control / Button / Play</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Organisms-/-Desktop-/-News-/-News-Article-Video" transform="translate(-309.000000, -38.000000)">
+            <g id="Control-/-Button-/-Play" transform="translate(309.000000, 27.837322)">
+                <polygon id="Path-2" stroke="#FFFFFF" stroke-width="2" points="1.96875 31.828125 32.4470881 11.8125 62.9254261 31.828125 32.4470881 51.84375"></polygon>
+                <polygon id="Path-2" stroke="#FFFFFF" stroke-width="2" points="1.96875 31.828125 32.4470881 11.8125 62.9254261 31.828125 32.4470881 51.84375"></polygon>
+                <path d="M34.9410245,27.4840658 L40.9095815,35.9102639 C41.2288116,36.3609418 41.1222522,36.9850756 40.6715743,37.3043057 C40.5025973,37.4239978 40.3006305,37.4882813 40.093557,37.4882813 L28.156443,37.4882813 C27.6041583,37.4882813 27.156443,37.040566 27.156443,36.4882813 C27.156443,36.2812078 27.2207265,36.0792409 27.3404185,35.9102639 L33.3089755,27.4840658 C33.6282057,27.0333879 34.2523395,26.9268285 34.7030173,27.2460587 C34.795231,27.3113767 34.8757065,27.3918521 34.9410245,27.4840658 Z" id="Triangle" fill="#FFFFFF" transform="translate(34.125000, 31.910156) rotate(-270.000000) translate(-34.125000, -31.910156) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

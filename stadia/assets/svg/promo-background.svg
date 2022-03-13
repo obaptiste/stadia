@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="390px" height="605px" viewBox="0 0 390 605" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path 2</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="390" height="605"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Path-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#C80550" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <polygon fill="#82BEE6" mask="url(#mask-2)" points="-202 73.5 194.670455 -187 591.340909 73.5 194.670455 334"></polygon>
+        </g>
+    </g>
+</svg>
