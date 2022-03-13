@@ -26,9 +26,9 @@ const defaultProps = {};
 /**
  * 
  */
-const NewsHero = (content) => {
+const NewsHero = () => {
     return <div className={`NewsHero ${styles.NewsHero}`}>
-        <p>lorem ipsum `${content}`</p>
+        <p>lorem ipsum {content}</p>
         <SImage src='../../public/image1.png' isHero/>
     </div>;
 }
