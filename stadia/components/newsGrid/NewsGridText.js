@@ -28,7 +28,7 @@ const content = 'Harlequins crowned Premiership Champions'
  * 
  */
 const NewsGridText = () => {
-    return <div classname={`NewsGridText ${styles.NewsGridText}`}>{content}</div>;
+    return <div className={`NewsGridText ${styles.NewsGridText}`}>{content}</div>;
 }
 
 NewsGridText.propTypes = propTypes;

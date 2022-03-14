@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NewsListingComponent from '../components/newsListing/NewsListingComponent';
 import NewsItem from '../components/NewsItem';
+
 export async function getServersideProps(context) {
   try {
     const newsList = await fetch('/api/newsItems').then((response) => response.json());
@@ -16,6 +17,9 @@ export async function getServersideProps(context) {
     return {props};
   } catch (error) {'runtime error: ' , error  }
 }
+
+getServersideProps();
+
 export default function Home() {
   return (
     <div className={styles.container}>
