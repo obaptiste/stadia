@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
+
 // #region constants
 
 // #endregion
@@ -22,12 +23,12 @@ const defaultProps = {};
 /**
  * 
  */
-const NewsGrid = () => {
+const NewsCard = () => {
     return <div></div>;
 }
 
-NewsGrid.propTypes = propTypes;
-NewsGrid.defaultProps = defaultProps;
+NewsCard.propTypes = propTypes;
+NewsCard.defaultProps = defaultProps;
 // #endregion
 
-export default NewsGrid;
+export default NewsCard;

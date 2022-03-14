@@ -18,7 +18,6 @@ import styles from './NewsHero.module.css'
 
 // #region component
 
-const content = 'Harlequins crowned Premiership Champions'
 const propTypes = {};
 
 const defaultProps = {};
@@ -28,8 +27,7 @@ const defaultProps = {};
  */
 const NewsHero = () => {
     return <div className={`NewsHero ${styles.NewsHero}`}>
-        <p>lorem ipsum {content}</p>
-        <SImage src='../../public/image1.png' isHero/>
+        <p>lorem ipsum</p>
     </div>;
 }
 

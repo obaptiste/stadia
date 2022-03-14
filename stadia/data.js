@@ -30,4 +30,4 @@ const NewsItems = [
   },
 ];
 
-export default newsItems;
+export default NewsItems;

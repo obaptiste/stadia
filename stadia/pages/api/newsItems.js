@@ -1,5 +1,5 @@
-import newsItems from '../../data';
+import NewsItems from '../../data';
 
 export default function handler(req, res) {
-  res.status(200).json(newsItems)
+  res.status(200).json(NewsItems)
 }

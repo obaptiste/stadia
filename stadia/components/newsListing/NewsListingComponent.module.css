@@ -4,11 +4,9 @@
     display:grid;
     width: 87%;
     min-height: 80vh; 
-    grid-template-columns: [NewsHero] auto [NewsHero] auto [NewsHero] auto [NewsHero];
-    grid-auto-rows: minmax(15em, auto);
+    grid-template-columns: [NewsHero] 1fr [NewsHero] 1fr [NewsHero] 1fr [NewsHero];
+    grid-auto-rows: minmax(15em, 35em);
     gap:39px;
 }
 
-.NewsHero {
-    grid-column:1 / -1;
-}
+

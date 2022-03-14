@@ -1,8 +1,21 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import NewsListingComponent from '../components/newsListing/NewsListingComponent'
+import NewsListingComponent from '../components/newsListing/NewsListingComponent';
+import NewsItem from '../components/NewsItem';
+export async function getServersideProps(context) {
+  try {
+    const newsList = await fetch('/api/newsItems').then((response) => response.json());
 
+    if (!newsList) {
+      return { notFound:true }
+    }
+
+    const props = {newsList};
+
+    return {props};
+  } catch (error) {'runtime error: ' , error  }
+}
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -14,7 +27,7 @@ export default function Home() {
 
       <main className={styles.main}>
       <NewsListingComponent/>
-
+      <NewsItem />
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
