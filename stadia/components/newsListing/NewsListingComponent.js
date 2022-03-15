@@ -24,7 +24,7 @@ const propTypes = {};
 
 const defaultProps = {};
 
-let NewsStories = [];
+let NewsStories = {};
 
 const newsStory = (newsItems) => {
   newsItems.map((newsItem) => {
